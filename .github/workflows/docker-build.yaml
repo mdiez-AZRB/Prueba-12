@@ -3,7 +3,7 @@ name: docker-build
 on:
   push:
     branches: ["Development"]
-    #tags: ["v*.*.*"]
+    tags: ["v*.*.*"]
 
 
 env:
