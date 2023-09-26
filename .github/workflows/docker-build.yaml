@@ -7,7 +7,7 @@ on:
 
 
 env:
-  IMAGE_NAME: miguelangelmarin23/prueba-cicd
+  IMAGE_NAME: miguelangelmarin23/Prueba-12
   SHA: ${{ github.event.pull_request.head.sha || github.event.after }}
   DOCKERFILE_PATH: Dockerfile
 
